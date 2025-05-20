@@ -14,9 +14,6 @@ We implement and evaluate models across **three classification tasks**:
 - Build and benchmark a variety of machine learning and deep learning models, including:
   - LightGBM (tree-based ensemble model)
   - 1D Convolutional Neural Network (1D-CNN)
-  - MobileNet-1D (lightweight CNN for edge deployment)
-  - Micro-CNN (minimalist CNN for extreme resource constraints)
-  - Hybrid CNN+LSTM+GRU architecture (combining spatial and temporal features)
 - Support binary, 6-class, and 15-class classification tasks.
 - Design models with edge deployment in mind (small memory footprint, fast inference).
 - Compare performance on multiple metrics including classification accuracy, generalization, and runtime efficiency.
@@ -59,20 +56,17 @@ We implement and evaluate models across **three classification tasks**:
 |---------------------------|--------------------------------------------------------------------------|
 | **LightGBM**              | Gradient boosting model optimized for speed and interpretability         |
 | **1D-CNN**                | Efficient convolutional architecture for time-series security data       |
-| **MobileNet-1D**          | Lightweight convolutional network tailored for edge computing            |
-| **Micro-CNN**             | Simplified CNN with minimal parameters, ideal for microcontrollers       |
-| **CNN + LSTM + GRU**      | Hybrid model combining spatial (CNN) and sequential (LSTM/GRU) learning |
-
 ---
 
 ## 📊 Evaluation Metrics
 
 - Accuracy
-- Precision, Recall
+- Macro and Weighted Precision
+- Macro and Weighted Recall
 - Macro and Weighted F1-Score
 - Confusion Matrix
 - Model Size (in MB)
-- Inference Time (per sample, in milliseconds)
+- Inference Time (per sample, in seconds)
 
 ---
 

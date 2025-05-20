@@ -1,0 +1,12 @@
+              precision    recall  f1-score   support
+
+      Normal       1.00      1.00      1.00    280115
+        DDoS       0.98      0.98      0.98     57299
+    Scanning       0.95      0.94      0.94     14141
+   Injection       0.72      0.96      0.82     20702
+        MITM       1.00      1.00      1.00        69
+     Malware       0.99      0.60      0.75     16764
+
+    accuracy                           0.97    389090
+   macro avg       0.94      0.91      0.91    389090
+weighted avg       0.98      0.97      0.97    389090

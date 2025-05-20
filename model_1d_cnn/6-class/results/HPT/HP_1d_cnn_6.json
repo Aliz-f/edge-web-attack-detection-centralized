@@ -1,0 +1,9 @@
+{
+  "batch_size": 64,
+  "dense_units": 32,
+  "dropout_rate": 0.2,
+  "epochs": 10,
+  "filters": 128,
+  "kernel_size": 3,
+  "learning_rate": 0.0005
+}

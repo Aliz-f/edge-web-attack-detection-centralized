@@ -1,0 +1,30 @@
+[
+    {
+        "num_features": 10,
+        "val_accuracy": 1.0
+    },
+    {
+        "num_features": 20,
+        "val_accuracy": 1.0
+    },
+    {
+        "num_features": 30,
+        "val_accuracy": 1.0
+    },
+    {
+        "num_features": 40,
+        "val_accuracy": 1.0
+    },
+    {
+        "num_features": 50,
+        "val_accuracy": 1.0
+    },
+    {
+        "num_features": 60,
+        "val_accuracy": 1.0
+    },
+    {
+        "num_features": 70,
+        "val_accuracy": 1.0
+    }
+]

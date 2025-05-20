@@ -1,0 +1,30 @@
+[
+    {
+        "num_features": 10,
+        "val_accuracy": 0.8916912972085386
+    },
+    {
+        "num_features": 20,
+        "val_accuracy": 0.9427257799671592
+    },
+    {
+        "num_features": 30,
+        "val_accuracy": 0.9671592775041051
+    },
+    {
+        "num_features": 40,
+        "val_accuracy": 0.9674220032840722
+    },
+    {
+        "num_features": 50,
+        "val_accuracy": 0.9675533661740559
+    },
+    {
+        "num_features": 60,
+        "val_accuracy": 0.967816091954023
+    },
+    {
+        "num_features": 70,
+        "val_accuracy": 0.967816091954023
+    }
+]

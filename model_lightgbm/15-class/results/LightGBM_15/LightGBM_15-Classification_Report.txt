@@ -1,0 +1,23 @@
+Accuracy: 0.9644980130710368
+Classification Report:
+                       precision    recall  f1-score   support
+
+               Normal       1.00      1.00      1.00      4837
+                 MITM       1.00      1.00      1.00        80
+            Uploading       0.95      0.89      0.92      1961
+           Ransomware       0.97      0.98      0.98      2031
+        SQL_injection       0.86      0.89      0.88      2076
+            DDoS_HTTP       0.92      0.98      0.95      2191
+             DDoS_TCP       1.00      1.00      1.00      2028
+             Password       0.84      0.87      0.86      1998
+        Port_Scanning       1.00      1.00      1.00      1793
+Vulnerability_scanner       1.00      0.98      0.99      2034
+             Backdoor       0.98      0.97      0.97      2013
+                  XSS       0.96      0.91      0.94      1855
+       Fingerprinting       0.97      0.95      0.96       177
+             DDoS_UDP       1.00      1.00      1.00      2813
+            DDoS_ICMP       1.00      1.00      1.00      2562
+
+             accuracy                           0.96     30449
+            macro avg       0.96      0.96      0.96     30449
+         weighted avg       0.97      0.96      0.96     30449

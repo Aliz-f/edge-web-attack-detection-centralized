@@ -1,0 +1,10 @@
+Accuracy: 1.0
+Classification Report:
+              precision    recall  f1-score   support
+
+No Intrusion       1.00      1.00      1.00      4837
+   Intrusion       1.00      1.00      1.00     25612
+
+    accuracy                           1.00     30449
+   macro avg       1.00      1.00      1.00     30449
+weighted avg       1.00      1.00      1.00     30449

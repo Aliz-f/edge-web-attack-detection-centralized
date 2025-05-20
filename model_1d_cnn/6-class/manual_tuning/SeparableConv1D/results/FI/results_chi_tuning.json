@@ -1,0 +1,38 @@
+[
+    {
+        "num_features": 10,
+        "val_accuracy": 0.899632453918457
+    },
+    {
+        "num_features": 20,
+        "val_accuracy": 0.9570947885513306
+    },
+    {
+        "num_features": 30,
+        "val_accuracy": 0.974391520023346
+    },
+    {
+        "num_features": 40,
+        "val_accuracy": 0.9740831255912781
+    },
+    {
+        "num_features": 50,
+        "val_accuracy": 0.9740368723869324
+    },
+    {
+        "num_features": 60,
+        "val_accuracy": 0.974597156047821
+    },
+    {
+        "num_features": 70,
+        "val_accuracy": 0.974278450012207
+    },
+    {
+        "num_features": 80,
+        "val_accuracy": 0.9739648699760437
+    },
+    {
+        "num_features": 90,
+        "val_accuracy": 0.9734097719192505
+    }
+]

@@ -91,11 +91,11 @@ environments, particularly under edge computing scenarios.
 
 | Task         | Model    | Accuracy   | Precision (Macro / Weighted) | Recall (Macro / Weighted) | F1-Score (Macro / Weighted) | AUC (Macro / Weighted) | Inference Time (per sample) |
 |--------------|----------|------------|------------------------------|---------------------------|-----------------------------|------------------------|-----------------------------|
-| **Binary**   | CNN      | 1.0000     | 1.0000 / 1.0000              | 1.0000 / 1.0000           | 1.0000 / 1.0000             | 1.0000 / 1.0000        | 0.040846 s                  |
+| **Binary**   | 1D-CNN   | 1.0000     | 1.0000 / 1.0000              | 1.0000 / 1.0000           | 1.0000 / 1.0000             | 1.0000 / 1.0000        | 0.040846 s                  |
 |              | LightGBM | 1.0000     | 1.0000 / 1.0000              | 1.0000 / 1.0000           | 1.0000 / 1.0000             | 1.0000 / 1.0000        | **0.001268 s**              |
-| **6-Class**  | CNN      | 0.9749     | 0.9388 / 0.9796              | 0.9125 / 0.9749           | 0.9150 / 0.9743             | 0.9976 / 0.9993        | 0.028850 s                  |
+| **6-Class**  | 1D-CNN   | 0.9749     | 0.9388 / 0.9796              | 0.9125 / 0.9749           | 0.9150 / 0.9743             | 0.9976 / 0.9993        | 0.028850 s                  |
 |              | LightGBM | **0.9756** | **0.9815 / 0.9764**          | **0.9792 / 0.9756**       | **0.9800 / 0.9756**         | **0.9993 / 0.9991**    | **0.000917 s**              |
-| **15-Class** | CNN      | **0.9701** | 0.8896 / **0.9726**          | **0.8904 / 0.9701**       | **0.8871 / 0.9707**         | **0.9984 / 0.9995**    | 0.049419 s                  |
+| **15-Class** | 1D-CNN   | **0.9701** | 0.8896 / **0.9726**          | **0.8904 / 0.9701**       | **0.8871 / 0.9707**         | **0.9984 / 0.9995**    | 0.049419 s                  |
 |              | LightGBM | 0.9645     | **0.9631 / 0.9651**          | 0.9608 / 0.9645           | 0.9617 / 0.9646             | 0.9993 / 0.9993        | **0.001006 s**              |
 
 ---
@@ -123,4 +123,4 @@ Planned and ongoing extensions include:
 
 * Enhancing experiments using the **Flower framework**
 * Evaluating communication efficiency, convergence behavior, and edge deployment feasibility
-* Extending lightweight CNN-1D architectures for efficient federated settings
+* Extending lightweight 1D-CNN architectures for efficient federated settings
